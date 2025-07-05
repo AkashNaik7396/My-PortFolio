@@ -5,8 +5,10 @@ Welcome to my personal portfolio website – a fully responsive and modern site 
 
 
 🔗 Live Preview
+
 🌐 Visit the Website: https://akashnaik7396.github.io/My-PortFolio/
-📂 GitHub Repository: akashnaik7397
+
+📂 GitHub Repository: https://akashnaik7396.github.io/My-PortFolio/
 
 📁 Sections Included
 Home – Introduction and background
@@ -14,6 +16,7 @@ Internships – Hands-on experience in the tech world
 Certificates – Courses and achievements from platforms like Cisco, Galiliox, SlashMark, etc.
 Projects – Applications like Netflix Clone, Spotify Player, Calculator, and more
 Connect Me – Contact info and social media links
+
 🌗 Features
 ✅ Fully Responsive Design (Mobile + Desktop)
 
@@ -61,8 +64,11 @@ npm start
 Designed & Developed by Akash Naik
 Special thanks to all mentors, peers, and platforms that supported my journey.
 📬 Let's Connect
+
 📧 Email: akashnaik7396@gmail.com
+
 💼 LinkedIn: www.linkedin.com/in/akash-naik-01b0b5273
+
 🐙 GitHub:akashnaik7396
 
 ⭐️ If you like this project, consider giving it a star on GitHub!
