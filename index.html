@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Akash Naik | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Internship Experience</a></li>
+          <li><a href="#Certifications">Certifications</a></li>
+          <li><a href="#Skills">Skills</a></li>
+          <li><a href="#Connect">Connect</a></li>
+        </ul>
+      </nav>
+      <div class="header-right">
+  <button id="mode-toggle" class="toggle-btn">🌙</button>
+</div>
+
+    </header>
+
+    <div class="hero">
+  <section id="home" class="section hidden">
+    <div class="intro-text">
+      <p class="slide-left" style="color: #de169b; font-size: 2rem; font-weight: bold;">
+  Hello I'm Akash Naik
+</p>
+
+      <p style="color: white;" id="text">
+        A passionate full-stack developer with strong skills in C, Python,
+        Java, SQL,and DSA. I enjoy building scalable backend systems
+        and interactive frontends. I'm committed to clean code, continuous
+        learning, and thrive in collaborative environments. Actively seeking
+        software engineering opportunities to grow and contribute.
+      </p>
+
+      <div class="social-links">
+            <a href="https://www.linkedin.com/in/akash-naik-01b0b5273" target="_blank">LinkedIn</a> |
+            <a href="https://github.com/AkashNaik7396" target="_blank">GitHub</a> |
+            <a href="https://twitter.com/akashnaik01" target="_blank">X</a>
+          </div>
+
+    <div class="intro-img" id="hello">
+      <img id="hello" src="images/akash.jpeg" alt="Akash Naik" />
+    </div>
+  </section>
+</div>
+
+  <div class="pro">
+    <section id="projects" class="section hidden">
+      <h2>Projects</h2>
+
+      <!-- Beginner Level Projects -->
+      <div class="project-category">
+        <h3 style="color: rgb(214, 35, 65)">Beginner Level Projects</h3>
+        <div class="projects-grid">
+          <a href="https://akashnaik7396.github.io/Rock-Paper-Scissors-/" target="_blank"
+            >Rock Paper Scissors</a
+          >
+          <a href="https://akashnaik7396.github.io/To-Do-List/">To-Do List</a>
+        </div>
+      </div>
+
+      <!-- Intermediate Level Projects -->
+      <div class="project-category">
+        <h3 style="color: rgb(214, 35, 65)">Intermediate Level Projects</h3>
+        <div class="projects-grid">
+          <a href="https://akashnaik7396.github.io/Netflix-Clone/" target="_blank"
+            >Netflix Clone</a
+          >
+          <a
+            href="https://akashnaik7396.github.io/spotify/"
+            target="_blank"
+            >Spotify Player</a
+          >
+        </div>
+      </div>
+
+      <!-- Advanced Level Projects -->
+      <div class="project-category">
+        <h3 style="color: rgb(214, 35, 65)">Advanced Level Projects</h3>
+        <div class="projects-grid">
+          <a href="https://akashnaik7396.github.io/E-Commerce-Website./">E-Commerce Website (Frontend + Backend)</a>
+          <a href="#">Bus Booking System (Frontend + Backend)</a>
+        </div>
+      </div>
+    </section>
+    </div>
+
+    <section id="experience" class="section hidden">
+      <h2>Internship Experience</h2>
+
+      <!-- Internship 1 -->
+      <div class="internship">
+        <img
+          class="internship-logo"
+          src="images/app.png"
+          alt="AI Internship Logo"
+        />
+        <div class="internship-details">
+          <h3 style="color: rgb(216, 45, 165)">
+            Domain: Artificial Intelligence & Machine Learning
+          </h3>
+          <ul>
+            <li>
+              Gained foundational knowledge in AI concepts including supervised,
+              unsupervised, and reinforcement learning.
+            </li>
+            <li>
+              Built and trained machine learning models using Python libraries
+              such as scikit-learn, NumPy, and Pandas.
+            </li>
+            <li>
+              Worked on real-time datasets to perform data preprocessing, model
+              evaluation, and result interpretation.
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Internship 2 -->
+      <div class="internship">
+        <img
+          class="internship-logo"
+          src="images/ybi.jpeg"
+          alt="DSA Internship Logo"
+        />
+        <div class="internship-details">
+          <h3 style="color: rgb(210, 49, 199)">
+            Domain: Data Structures and Algorithms using Python
+          </h3>
+          <ul>
+            <li>
+              Gained hands-on experience with key DSA concepts such as arrays,
+              linked lists, stacks, queues, trees, and sorting algorithms.
+            </li>
+            <li>
+              Implemented real-world problem-solving techniques using Python to
+              enhance algorithmic thinking.
+            </li>
+            <li>
+              Built mini projects and solved competitive coding problems to
+              strengthen logical and analytical skills.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+   <section id="Certifications" class="section hidden">
+  <h2>Certifications</h2>
+  <div class="certificates-grid">
+    <!-- Lightbox Popup -->
+<div id="lightbox" class="lightbox">
+  <span class="close-btn" onclick="closeLightbox()">&times;</span>
+  <img id="lightbox-img" class="lightbox-img" src="" alt="Certificate Preview" />
+  <div class="nav-arrow left" onclick="prevCertificate()">&#10094;</div>
+  <div class="nav-arrow right" onclick="nextCertificate()">&#10095;</div>
+</div>
+
+
+    <div class="certificate-item">
+      <img src="images/database.png" alt="SQL Certification" class="certificate-img" onclick="openLightbox(this.src)" />
+      <p>Certified in SQL and Relational Databases 101 issued by IBM Developer Skills Network in 2023.</p>
+    </div>
+
+    <div class="certificate-item">
+      <img src="images/java1.png" alt="Java Certification" class="certificate-img" onclick="openLightbox(this.src)" />
+      <p>Java Programming Fundamentals certification provided by EDX GalileoX in 2023.</p>
+    </div>
+
+    <div class="certificate-item">
+      <img src="images/python2.png" alt="Python Cisco Certification" class="certificate-img" onclick="openLightbox(this.src)" />
+      <p>Python Essential 1 & 2 certification provided by CISCO Networking Academy in 2023.</p>
+    </div>
+
+    <div class="certificate-item">
+      <img src="images/networking.png" alt="DSA in Python Certification" class="certificate-img" onclick="openLightbox(this.src)" />
+      <p>Introduction to Computer Networking Certificate of Completion  by chegg in 2023.</p>
+    </div>
+
+    <div class="certificate-item">
+      <img src="images/soft.png" alt="Soft Skills Certification" class="certificate-img" onclick="openLightbox(this.src)" />
+      <p>Online Soft Skills Training on Interview Readiness Certification from NPTEL in 2024.</p>
+    </div>
+
+  </div>
+
+  <!-- Lightbox popup -->
+  <div id="lightbox" onclick="closeLightbox()">
+    <span class="close-btn">&times;</span>
+    <img id="lightbox-img" src="" alt="Full View" />
+  </div>
+</section>
+
+
+
+    <section id="Skills" class="section hidden">
+      <h2>Skills</h2>
+      <div class="skills-logos">
+        <img src="images/html.png" alt="HTML" />
+        <img src="images/css.png" alt="CSS" />
+        <img src="images/js.png" alt="JavaScript" />
+        <img src="images/python.jpeg" alt="Python" />
+        <img src="images/java.png" alt="Java" />
+        <img src="images/react.png" alt="React.js" />
+        <img src="/images/dsa.png" alt="Data Structures" />
+        <img src="/images/node.png" alt="Data Structures" />
+        <img src="/images/express.png" alt="Data Structures" />
+        <img src="/images/mongodb.jpeg" alt="MongoDB" />
+        <img src="/images/sql.png" alt="SQL" />
+        <img src="/images/git.png" alt="Git" />
+        <img src="/images/github.png" alt="GitHub" />
+      </div>
+    </section>
+
+   <section id="Connect" class="section hidden">
+  <h2>Connect With Me</h2>
+  <form id="contact-form" class="contact-form">
+    <div class="form-group">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" placeholder="Your full name" required />
+    </div>
+
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="Your email address" required />
+    </div>
+
+    <div class="form-group">
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" name="phone" placeholder="Your phone number" required />
+    </div>
+
+    <div class="form-group">
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="4" placeholder="Write your message..." required></textarea>
+    </div>
+
+    <button type="submit" class="btn-submit">Send Message</button>
+  </form>
+</section>
+
+    </div>
+
+    <footer>
+      <p>&copy; 2025 Akash Naik. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
