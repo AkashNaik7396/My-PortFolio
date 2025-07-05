@@ -28,7 +28,7 @@ Version Control: Git & GitHub
 <img width="1279" alt="Screenshot 2025-07-01 at 11 33 03 AM" src="https://github.com/user-attachments/assets/26084ed2-051e-4563-bbcc-10627c114a21" />
 <img width="1279" alt="Screenshot 2025-07-01 at 11 33 10 AM" src="https://github.com/user-attachments/assets/231361ce-6b15-46b2-a097-ea7e19aa2028" />
 <img width="1280" alt="Screenshot 2025-07-01 at 11 33 18 AM" src="https://github.com/user-attachments/assets/72b55de1-4153-4648-8df3-a956d1646322" />
-<img width="681" alt="Screenshot 2025-07-03 at 12 14 44 PM" src="https://github.com/user-attachments/assets/6c83bbf5-ee90-4c05-a25a-81dcd14bff5e" />
+<img width="1257" alt="Screenshot 2025-07-01 at 11 33 26 AM" src="https://github.com/user-attachments/assets/a3f6b037-6398-4fe6-9941-125ad8bac7bd" />
 
 Light Mode	Dark Mode
 Add your actual image links above or in the repo folder as /assets/light.png etc.
